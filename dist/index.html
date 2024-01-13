@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        margin-top: -6em;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-Very-Light-Gray min-h-screen">
+    <header class="px-5 pt-20 md:pt-8">
+      <h1 class="text-Grayish-Blue text-center text-[1.74rem] md:text-[2.44rem] md:-mb-2 font-200">
+        Reliable, efficient delivery
+      </h1>
+      <h2 class="text-Very-Dark-Blue text-center font-600 text-[1.74rem] mb-3 md:text-[2.5rem]">
+        Powered by Technology
+      </h2>
+    </header>
+
+    <main class="px-5 pb-20 md:px-[11.5%] md:grid">
+      <p class="text-Grayish-Blue text-center font-400 md:max-w-[550px] md:justify-self-center leading-6">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+      <!-- cards -->
+      <div class="grid grid-cols-1 mt-16 gap-7 md:grid-cols-3 items-center">
+        <div
+          class="overflow-hidden shadow-xl drop-shadow-sm shadow-gray-200 relative rounded-lg bg-white px-8 py-8"
+        >
+          <div class="absolute top-0 bg-Cyan h-1 w-full left-0"></div>
+          <h3 class="text-Very-Dark-Blue font-600 text-[1.5rem] mb-1 md:text-[1.4rem]">
+            Supervisor
+          </h3>
+          <p class="text-Grayish-Blue font-300 mb-10 md:text-[15px]">
+            Monitors activity to identify project roadblocks
+          </p>
+          <div class="grid justify-end">
+            <img src="images/icon-supervisor.svg" alt="icons-search" />
+          </div>
+        </div>
+<!-- middle cards -->
+        <div class="w-full gap-7 grid">
+          <div
+            class="overflow-hidden shadow-xl drop-shadow-sm shadow-gray-200 relative rounded-lg bg-white px-8 py-8"
+          >
+            <div class="absolute top-0 bg-Red h-1 w-full left-0"></div>
+            <h3 class="text-Very-Dark-Blue font-600 text-[1.5rem] mb-1 md:text-[1.4rem]">
+              Team Builder
+            </h3>
+            <p class="text-Grayish-Blue text-[15px] font-400 mb-10">
+              Scans our talent network to create the optimal team for your
+            </p>
+            <div class="grid justify-end">
+              <img src="images/icon-team-builder.svg" alt="icons-search" />
+            </div>
+          </div>
+
+          <div
+            class="overflow-hidden shadow-xl drop-shadow-sm shadow-gray-200 relative rounded-lg bg-white px-8 py-8"
+          >
+            <div class="absolute top-0 bg-Orange h-1 w-full left-0"></div>
+            <h3 class="text-Very-Dark-Blue font-600 text-[1.5rem] mb-2 md:text-[1.4rem]">
+              Karma
+            </h3>
+            <p class="text-Grayish-Blue font-300 mb-10 md:text-[15px]">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <div class="grid justify-end">
+              <img src="images/icon-karma.svg" alt="icons-search" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="overflow-hidden shadow-xl drop-shadow-sm shadow-gray-200 relative rounded-lg bg-white px-8 py-8"
+        >
+          <div class="absolute top-0 bg-Blue h-1 w-full left-0"></div>
+          <h3 class="text-Very-Dark-Blue font-600 text-[1.5rem] mb-2 md:text-[1.4rem]">
+            Calculator
+          </h3>
+          <p class="text-Grayish-Blue font-300 mb-10 md:text-[15px]">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <div class="grid justify-end">
+            <img src="images/icon-calculator.svg" alt="icons-search" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Jonndev25/">JonnDev25</a>.
+      </p>
+    </footer>
+  </body>
+</html>
